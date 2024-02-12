@@ -55,6 +55,9 @@ public class RearrangeArrayInIncreasingDecreasingOrder {
 		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		printArray(arr);
+		decreasingOrder(arr);
+		printArray(arr);
 
 	}
 
